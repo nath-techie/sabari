@@ -1,6 +1,6 @@
 
 import sabari from './pics/sabari7.png';
-import capture2 from './pics/Capture2.JPG';
+ 
 import li from './pics/li3.png';
 import github from './pics/github.png';
 import '../App.css';

@@ -1,6 +1,8 @@
 .App {
 background-color: #597cfe;
 }
+
+/*   ------   Home page ---------  */
 .sidebar{
   height:100%;width:7%;position: fixed;
   background-color: white;z-index:1;
@@ -12,7 +14,7 @@ background-color: #597cfe;
 .my-logo{position: relative;top:10px; max-width:90px;width:100%;}
 .my-logo:hover{border:8px solid #ffde59; }
 
-.icons{width:100%;max-width:70px;}
+.icons{width:100%;max-width:70px; }
 .icons:hover{border:8px solid #ffde59;background-color: white;}
 
 
@@ -33,11 +35,57 @@ background-color: #597cfe;
     font-size: 150px;color:#ffde59; ;text-align: center;}
 .name:hover{color: white; }
 
-.role{font-size: 40px;}
-.role:hover{color: #ffde59;}
+.role{font-size: 40px;font-family: 'Josefin Sans', sans-serif;}
+.role:hover{color: #ffde59; }
 .profile{margin-left: 10px;height: 40px;width:40px;cursor: pointer;
   border:3px solid #ffde59;border-radius: 20%;background-color: white;}
 .profile:hover{background-color:#ffde59; }
-.App-link {
-  color: #61dafb;
+
+
+/* ----- Project page ---------  */
+.project-page{margin-top: 20px;margin-left: 50px;
+  display:flex;flex-flow: column;
+  justify-content: center;
+   align-items: center;
+    flex-wrap: wrap;font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;color: #ffde59;
+}
+.skill{color: #ffde59;
+    height: 500px;width: 500px;
+}
+.pro-container{
+
+  display:grid;grid-gap: 1rem;}
+@media (min-width: 600px) {
+  .pro-container{ grid-template-columns: repeat(1, 1fr); }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .pro-container{ grid-template-columns: repeat(2, 1fr); }
+}
+.pro-box{font-size: 1rem;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+
+}
+.screenshot{width: 50%;height:50%;border-radius: 10%;border: 2px solid black; }
+.screenshot:hover{opacity: 0.2;  }
+.about{color: black;
+  font-size: 1rem;text-align: center;
+}
+
+/*  ------ Contact page --------   */
+.contact-page{
+  margin-top: 100px;margin-left: 50px;
+    display:flex;flex-flow: column;
+    justify-content: center;
+     align-items: center;
+      flex-wrap: wrap;font-size: 2rem;
+      font-family: 'Josefin Sans', sans-serif;color: #ffde59;
+
 }
