@@ -89,3 +89,17 @@ background-color: #597cfe;
       font-family: 'Josefin Sans', sans-serif;color: #ffde59;
 
 }
+.btn {
+  background: #d9cb34;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 34px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+
+}
