@@ -1,5 +1,4 @@
 import ProjectBox from "./Projectbox.jsx";
-import html from "./pics/h5.png";
 import s1 from "./pics/sp1.JPG";
 import s2 from "./pics/sp2.JPG";
 import s3 from "./pics/sp3.JPG";
@@ -10,10 +9,8 @@ import s4 from "./pics/sp4.JPG";
 function Projects(){
   return(
     <div className="project-page">
-    <h1>Skills</h1>
-    <img src={html}className="skill"/>
-    <h1>Projects</h1>
-    <div className="pro-container">
+
+     <div className="pro-container">
     <ProjectBox
     name="Yoga Dhipa Agarbati"
     link="https://valli-yoga-dhipa.vercel.app/"
@@ -21,7 +18,7 @@ function Projects(){
     about=" Landing Page,for a Small Scale Agarbati manufacturer in Tirunelveli  "
     />
     <ProjectBox
-    name="Story-Time Blog "
+    name="Story-Time Blog Webstite"
     link= ""
     image={s2}
     about="Full Stack MERN blog website"
@@ -39,7 +36,7 @@ function Projects(){
     about="A Simple memory game using Javascript,click and check your memory power"
     />
     </div>
-    <h1>Currently Working on 2 projects..</h1>
+    <h2>Currently Working on 2 projects..</h2>
     <h2> Weekly one Project will be updated here</h2>
     <h2>Last update: 11 th June 2022</h2>
       <h4>Please Check my github account for Source Code & other repositories</h4>
