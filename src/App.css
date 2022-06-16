@@ -1,57 +1,86 @@
-.App {
-background-color: #597cfe;
-}
+.App
+{bbackground-color: #597cfe;}
 
   /*   ------   HOME PAGE ---------  */
 
 
-.sidebar{
-  height:20%;
+.sidebar
+{
+height:20%;
 padding: 1rem;
-  display: flex;
-  flex-flow: row;
-  justify-content:space-around;
-  flex-wrap: wrap;z-index: 1;
-
+display: flex;
+flex-flow: row;
+justify-content:space-around;
+flex-wrap: wrap;z-index: 1;
 }
-.navtext{text-decoration: none;font-size: 2rem;
-  color: white;
-  font-family: 'Kdam Thmor Pro', sans-serif;}
-.my-logo{
-   max-width:4rem;
-border-radius: 50% ;background-color: WHITE;
+
+.navtext
+{
+text-decoration: none;font-size: 2rem;
+color: white;
+font-family: 'Kdam Thmor Pro', sans-serif;
 }
-.my-logo:hover{border:3px solid #ffde59; background-color:#ffde59; }
 
-.icons{   max-width:2rem; overflow: hidden;}
-.navtext:hover{overflow: hidden;
-  color:#ffde59; }
+.navtext:hover
+{overflow: hidden;color:#ffde59;}
 
-.home{ margin-top: 3rem;
-  display:flex;flex-flow: row;
-  justify-content: center;
-   align-items: center;
-    flex-wrap: wrap;}
+.my-logo
+{
+max-width:4rem;border-radius: 50% ;
+background-color: WHITE;
+}
+.my-logo:hover
+{border:3px solid #ffde59; background-color:#ffde59;}
 
-.my-photo{height:400px;
-	 background-color: #ffde59;
-   border-radius:70% 10%;transition:border-radius 0.8s;}
+.icons
+{max-width:2rem; overflow: hidden;}
+
+.home
+{
+margin-top: 3rem;
+display:flex;flex-flow: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.my-photo
+{
+height:400px;
+background-color: #ffde59;border:1.5px solid black;
+border-radius:70% 10%;transition:border-radius 0.8s;}
 .my-photo:hover{border-radius:10% 70%;}
 
 
-.details{margin-left:50px; }
-.name{text-shadow: 2px 2px 5px black;
-    font-family: 'Just Another Hand', cursive;
-    font-size: 10rem;color:#ffde59; ;text-align: center;}
-.name:hover{color: white; }
+.details
+{margin-left:50px; }
 
-.role{font-size: 40px;font-family: 'Josefin Sans', sans-serif;}
+.name
+{
+text-shadow: 2px 2px 5px black;
+font-family: 'Just Another Hand', cursive;
+font-size: 10rem;color:#ffde59; ;text-align: center;}
+.name:hover{color: white;
+}
+
+.role
+{font-size: 40px;font-family: 'Josefin Sans', sans-serif;}
+
 .role:hover{color: #ffde59; }
 .profile{ margin-left: 1rem;
   height: 40px;width:40px;cursor: pointer;
   border:3px solid #ffde59;
   border-radius: 20%;background-color: white;}
 .profile:hover{background-color:#ffde59; }
+
+
+/* ----SKILL PAGE -----*/
+.skill-page{
+ width:100%; display: flex;justify-content: center;
+}
+.skill{max-width: 30rem; width:100%;
+}
+
 
 
 /* ----- PROJECT PAGE ---------  */
@@ -65,11 +94,9 @@ border-radius: 50% ;background-color: WHITE;
     flex-wrap: wrap;font-size: 2rem;
     font-family: 'Josefin Sans', sans-serif;color: #ffde59;
 }
-.skill{max-width: 30rem;
-}
-.pro-container{
 
-  display:grid;grid-gap: 1rem;}
+.pro-container{
+display:grid;grid-gap: 3rem;}
 @media (min-width: 600px) {
   .pro-container{ grid-template-columns: repeat(1, 1fr); }
 }
@@ -78,19 +105,23 @@ border-radius: 50% ;background-color: WHITE;
 @media (min-width: 900px) {
   .pro-container{ grid-template-columns: repeat(2, 1fr); }
 }
-.pro-box{font-size: 1rem;
-  display:flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
+.pro-box{width:100%; max-width: 30rem;
+font-size: 2rem;
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+text-align: center;
+
+border: 1px solid white;border-radius: 3%;
+box-shadow: 2px 2px 20px black;
 
 
 }
-.screenshot{width: 50%;height:50%;border-radius: 10%;border: 2px solid black; }
+.screenshot{
+  width: 50%;height:50%;border-radius: 10%;border: 2px solid black; }
 .screenshot:hover{opacity: 0.2;  }
 .about{color: black;
-  font-size: 1rem;text-align: center;
+  font-size: 1.5rem;text-align: center;
 }
 
 
@@ -100,21 +131,21 @@ border-radius: 50% ;background-color: WHITE;
 
 .contact-page{
 margin-top: 4rem;
-    display:flex;flex-flow: column;
-    justify-content: center;
-     align-items: center;
-      flex-wrap: wrap;font-size: 2rem;
-      font-family: 'Josefin Sans', sans-serif;color: #ffde59;
+display:flex;flex-flow: column;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;font-size: 2rem;
+font-family: 'Josefin Sans', sans-serif;color: #ffde59;
 
 }
 .btn {
-  background: #d9cb34;
-  border-radius: 28px;
-  font-family: Georgia;
-  color: #000000;
-  font-size: 34px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+background: #d9cb34;
+border-radius: 28px;
+font-family: Georgia;
+color: #000000;
+font-size: 34px;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
 }
 
 .btn:hover {
@@ -123,6 +154,6 @@ margin-top: 4rem;
 }
 
 
-.contact-icons{margin-left: 2rem;
-  height: 7rem;width: 7rem;
-}
+.contact-icons
+{margin-left: 2rem;
+height: 7rem;width: 7rem;}
