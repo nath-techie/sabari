@@ -91,10 +91,10 @@ text-shadow: 3px 3px #ffde59 ;
 {font-size: 40px;font-family: 'Josefin Sans', sans-serif;}
 
 .role:hover{color: #ffde59; }
-.profile{ margin-left: 1rem;
+.profile{ margin-left: 2rem;margin-bottom: 4rem;
   height:3rem;width:3rem;cursor: pointer;
-  border:1px solid white;
-  border-radius: 10%;background-color: white;box-shadow: 1px 1px 3px black;}
+  border:1px solid black;
+  border-radius: 10%;background-color: white;box-shadow: 2px 2px 3px black;}
 .profile:hover{background-color:#ffde59; }
 
 
@@ -132,8 +132,8 @@ display:grid;grid-gap: 3rem;}
 @media (min-width: 900px) {
   .pro-container{ grid-template-columns: repeat(2, 1fr); }
 }
-.pro-box{margin-left: 1rem;margin-right: 1rem;
-  width:100%; max-width: 30rem;max-height: 30rem;
+.pro-box{margin:0.5rem;
+  width:95%; max-width: 30rem;max-height: 30rem;
 font-size: 1rem;
 display:flex;
 flex-direction: column;
