@@ -6,5 +6,6 @@ function Skills(){
   <img src={html}className="skill" alt="front end skills"/>
     </div>
   );
+  
 }
 export default Skills;

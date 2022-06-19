@@ -12,6 +12,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+
     <Sidebar
      />
 
@@ -21,7 +22,9 @@ function App() {
           <Route path="skills" element={<Skills />} />
           <Route path="contact" element={<Contact />} />
     </Routes>
+    <div className="ball"> </div>
     </div>
+
   );
 }
 

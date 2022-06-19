@@ -14,7 +14,7 @@ function Contact(){
     </a>
     </span>
 
-    <h2>Phone :+91 7010026830</h2>
+    <h2 >Phone :+91 7010026830</h2>
 
     <a href={resume} download="Sabari Resume" className="btn">
     Download my Resume

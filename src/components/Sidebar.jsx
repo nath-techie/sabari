@@ -4,19 +4,20 @@ import sn1 from './pics/SN2.png';
 import pro from './pics/project.png';
 import contact from './pics/contact.png';
 import webpage from "./pics/webpage.png";
+import menu from "./pics/menu.png";
 
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+
+import React,{useState} from 'react';
 
 function Sidebar(){
 
-
+const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return(
-<div className="sidebar">
+<div className={isNavExpanded ?"responsive":"sidebar"}>
 
 <Link to="/" className="navtext">
-<img src={sn1}  className="my-logo"   />
+<img src={sn1}  className="my-logo" id="logo"  />
 </Link>
 
 <Link to="/skills"className="navtext">
@@ -34,7 +35,9 @@ function Sidebar(){
 <span>Contact  </span>
 <img src={contact}  className="icons" />
 </Link>
-
+<div>
+<img src={menu} className="menu-icon" onClick={()=>setIsNavExpanded(!isNavExpanded)}/>
+</div>
 </div>
 );
 }
