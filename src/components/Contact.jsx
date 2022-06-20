@@ -19,7 +19,7 @@ function Contact(){
     <a href={resume} download="Sabari Resume" className="btn">
     Download my Resume
     </a>
-
+<div className="last"></div>
 
     </div>
   );

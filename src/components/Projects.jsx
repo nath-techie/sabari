@@ -1,7 +1,7 @@
 import ProjectBox from "./Projectbox.jsx";
 import s1 from "./pics/sp1.JPG";
 import s2 from "./pics/sp5.jpg";
-import s3 from "./pics/sp6.JPG";
+import s3 from "./pics/sp7.JPG";
 import s4 from "./pics/sp4.JPG";
 
 
@@ -12,33 +12,30 @@ function Projects(){
 
      <div className="pro-container">
     <ProjectBox
-    name="Yoga Dhipa Agarbati"
     link="https://valli-yoga-dhipa.vercel.app/"
     image={s1}
-    about=" Landing page for a small scale manufacturer"
+    about="Landing page for a small scale manufacturer"
     stack="REACT JS"
     />
     <ProjectBox
-    name="Story-Time Blog Webstite"
-    link= ""
+     link= ""
     image={s2}
     about="Full Stack MERN blog website"
-    stack="MongoDB,Express,React Js,NodeJs"
+    stack="MongoDB|Express|React Js|NodeJs"
     />
     <ProjectBox
-    name="My Portfolio😄"
     link="https://sabari-portfolio.vercel.app/"
     image={s3}
-    about="My own developer portfolio built with React"
+    about="My Developer portfolio"
     stack="React Js"
     />
     <ProjectBox
-    name="Memory Game"
     link="https://nath-techie.github.io/sabari-memory-game.github.io/"
     image={s4}
-    about="A Simple memory game using Javascript,click and check your memory power"
+    about="Memory game"
     stack="Javascript"
     />
+
     </div>
     <div id="update">
     <h3> Weekly one Project will be updated here</h3>

@@ -23,6 +23,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
     </Routes>
     <div className="ball"> </div>
+    <footer><img src="./footer2.png"  className="footer" /></footer>
     </div>
 
   );
