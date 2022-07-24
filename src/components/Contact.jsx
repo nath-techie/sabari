@@ -3,8 +3,8 @@ import w from "./pics/whatsapp.png"
 import g from "./pics/gmail.png"
 
 function Contact(){
-  return(<div className="contact-page">
-
+  return(<div className="contact-page"  id="4">
+<span>Contact me at:</span>
    <span>
     <a href="mailto:nathansabari2020@gmail.com?subject=Hi Sabari ,Saw your Portfolio" target="_blank">
     <img src={g} className="contact-icons" alt="whatsapp"/>
@@ -14,12 +14,13 @@ function Contact(){
     </a>
     </span>
 
-    <h2 >Phone :+91 7010026830</h2>
 
-    <a href={resume} download="Sabari Resume" className="btn">
+
+    <a href={resume} download="Sabari Resume" className="btn resume">
     Download my Resume
     </a>
-<div className="last"></div>
+<br />
+<br/>
 
     </div>
   );
