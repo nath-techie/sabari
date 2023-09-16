@@ -4,13 +4,53 @@ import s2 from "./pics/sp5.jpg";
 import s3 from "./pics/sp7.JPG";
 import s4 from "./pics/sp4.JPG";
 import s5 from "./pics/sp2.JPG";
-
+//ADDING NEW PROJECTS BELOW
+import s6 from "./pics/FULL STACK website.PNG";
+import s7 from "./pics/CSS HELPER.PNG";
+import s8 from "./pics/SNAKE GAME.PNG";
+import s9 from "./pics/CINEPHILE.PNG";
+import s10 from "./pics/EXTENSION.PNG";
 
 function Projects(){
   return(
     <div className="project-page" id="3">
 
      <div className="pro-container">
+
+  <ProjectBox
+    link="https://crick-fan.onrender.com/"
+    image={s6}
+    about="Cricfan-Full stack website"
+    stack="Node js, Express Js, PostgreSQL"
+    />
+<ProjectBox
+    link="https://nath-techie.github.io/css-helper/"
+    image={s7}
+    about="CSS visualizer"
+    stack="Javascript"
+    />
+    <ProjectBox
+    link="https://chrome.google.com/webstore/detail/pomodoro-timer/igcbphpjeebkpfoiechnbangfodgcpkn"
+    image={s10}
+    about="Chrome browser extension"
+    stack="Javascript"
+    />
+<ProjectBox
+    link="https://nath-techie.github.io/snake_game/"
+    image={s8}
+    about="Snake game"
+    stack="Javascript, Canvas API"
+    />
+<ProjectBox
+    link="https://movie-react-nathan.vercel.app/"
+    image={s9}
+    about="Cinephile"
+    stack="React Js, API"
+    />
+    
+
+
+     
     <ProjectBox
     link="https://valli-yoga-dhipa.vercel.app/"
     image={s1}
