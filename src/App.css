@@ -14,7 +14,7 @@ flex-flow: row;
 justify-content:space-around;
 flex-wrap: wrap;
 position: fixed;
-min-width: 100vw;z-index: 1;
+min-width: 100vw;z-index: 15;
 }
 .sidebar a{text-decoration: none;color: black; }
 .sidebar a:hover{ color: #ffde59;}
@@ -118,12 +118,10 @@ margin-bottom: 6rem;
 }
 
 .filler-images {
-  width: 30px; 
-  height: 30px; 
+  width: 100px; 
+  height: 100px; 
   position: absolute;
-  right: -15px; 
-  top: 50%;
-  transform: translateY(-50%); 
+  right: 15px; 
   z-index: 10; 
 }
 
