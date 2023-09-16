@@ -1,4 +1,5 @@
 import ProjectBox from "./Projectbox.jsx";
+import filler2 from"./pics/f2.png";
 import s1 from "./pics/sp3.JPG";
 import s2 from "./pics/sp5.jpg";
 import s3 from "./pics/sp7.JPG";
@@ -14,7 +15,7 @@ import s10 from "./pics/EXTENSION.PNG";
 function Projects(){
   return(
     <div className="project-page" id="3">
-
+<img src={filler2} alt="Icon description" class="filler-images"/>
      <div className="pro-container">
 
   <ProjectBox
