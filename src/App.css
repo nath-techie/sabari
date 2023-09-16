@@ -124,6 +124,11 @@ margin-bottom: 6rem;
   right: 15px; 
   z-index: 10; 
 }
+.filler2-images {
+  width: 100px; 
+  height: 100px; 
+  z-index: 10; 
+}
 
 
 /* ----- PROJECT PAGE ---------  */
