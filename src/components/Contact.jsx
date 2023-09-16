@@ -1,4 +1,4 @@
-import resume from "./pics/SABARIA.pdf"
+import resume from "./pics/Sabari Nathan Resume.pdf"
 import w from "./pics/whatsapp.png"
 import g from "./pics/gmail.png"
 
