@@ -15,7 +15,7 @@ import s10 from "./pics/EXTENSION.PNG";
 function Projects(){
   return(
     <div className="project-page" id="3">
-<img src={filler2} alt="Icon description" class="filler-images"/>
+<img src={filler2} alt="Icon description" class="filler2-images"/>
      <div className="pro-container">
 
   <ProjectBox
