@@ -21,13 +21,13 @@ function Home(){
       </div>
       <div className="details">
 
-      <span className="role">Hi, I'm</span><br />
+      <span className="role">Hi 👋 I'm</span><br />
       <span className="name">Sabari Nathan</span><br />
-      <span className="role">Full Stack Web Developer,</span><br />
+      <span className="role">Freelance Web Developer,</span><br />
       <span className="role">by passion</span><br /><br/>
 <div className="eprof">
 <Profile
-link="https://www.linkedin.com/in/a-sabari-nathan-b48962140/"
+link="https://www.linkedin.com/in/a-sabari-nathan/"
 image={li}
 />
 <Profile
