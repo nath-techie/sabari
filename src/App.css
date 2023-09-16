@@ -51,7 +51,7 @@ font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .navtext:hover
-{overflow: hidden;color:#ffde59;}
+{overflow: hidden;color:#475bbf;}
 
 .my-logo
 {
@@ -80,8 +80,8 @@ flex-wrap: wrap;height: 100%;
 .my-photo
 {
 height:300px;
-background-color: #ffde59;border:1px solid black;
-border-radius:50%;box-shadow: 1px 1px 10px black;
+background-color: #ffde59;border:2px solid black;
+border-radius:100% 10% 100% 100%; 
 }
 
 .details
@@ -91,7 +91,7 @@ border-radius:50%;box-shadow: 1px 1px 10px black;
 {color: #597cfe;
 font-family: 'Righteous', cursive;
 font-size: 5rem;text-align: center;
-text-shadow: 3px 3px #ffde59 ;
+text-shadow: 1px 2px 1px black ;
 }
 
 .role
@@ -111,11 +111,10 @@ text-shadow: 3px 3px #ffde59 ;
  display: flex; justify-content: center;
 background-color: #fffde0;
 }
-.skill{max-width: 30rem;margin-top: 3rem;
-margin-bottom: 3rem;
+.skill{max-width: 30rem;margin-top: 6rem;
+margin-bottom: 6rem;
    width:100%;
-   background-color:#597cfe;
-   border-radius: 10%;
+  
 }
 
 
@@ -164,7 +163,8 @@ border-radius: 10px;
   position: absolute;
   top:0;left:0;
   border-radius:10px;
-   background-color:#acb9f2;color:black;
+   background-color:#597cfe;
+       color:white;
   font-family: 'Nanum Myeongjo', serif;
   font-size: 0.5rem;text-align: center;}
 
