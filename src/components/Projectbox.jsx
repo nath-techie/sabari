@@ -8,7 +8,7 @@ function ProjectBox(props){
       <img src={props.image} className="screenshot" alt="screenshot" />
 
       <div className="about">
-        <p>Stacks</p> <br/>
+         
         <p className="stack">{props.stack}</p>
 
         <p className="title">{props.about}</p>
