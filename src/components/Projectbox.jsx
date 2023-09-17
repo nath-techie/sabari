@@ -8,7 +8,8 @@ function ProjectBox(props){
       <img src={props.image} className="screenshot" alt="screenshot" />
 
       <div className="about">
-        <p className="stack">Stacks: {props.stack}</p>
+        <p>Stacks</p> <br/>
+        <p className="stack">{props.stack}</p>
 
         <p className="title">{props.about}</p>
         <a href={props.link} target="_blank"><button className="btn visit">Visit</button>
